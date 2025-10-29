@@ -20,9 +20,9 @@ public class AceTp7Application {
     @Bean
     CommandLineRunner start(CompteRepository compteRepository){
         return args -> {
-            compteRepository.save(new Compte(null, new Date(), Math.random()*9000, TypeCompte.EPARGNE));
-            compteRepository.save(new Compte(null, new Date(), Math.random()*9000, TypeCompte.COURANT));
-            compteRepository.save(new Compte(null, new Date(), Math.random()*9000, TypeCompte.EPARGNE));
+            compteRepository.save(new Compte(null, Math.random()*9000, new Date(), TypeCompte.EPARGNE));
+            compteRepository.save(new Compte(null, Math.random()*9000, new Date(), TypeCompte.COURANT));
+            compteRepository.save(new Compte(null, Math.random()*9000, new Date(), TypeCompte.EPARGNE));
 
             compteRepository.findAll().forEach(c -> {
                 System.out.println(c.toString());

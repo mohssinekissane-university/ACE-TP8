@@ -17,11 +17,10 @@ public class Compte {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private double solde;
     
     @Temporal(TemporalType.DATE)
     private Date dateCreation;
-    
-    private double solde;
     
     @Enumerated(EnumType.STRING)
     private TypeCompte type;
