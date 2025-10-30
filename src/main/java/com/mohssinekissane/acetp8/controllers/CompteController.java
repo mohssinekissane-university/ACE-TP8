@@ -10,6 +10,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/banque")
+@CrossOrigin(origins = "http://localhost:3000")
+
 public class CompteController {
     
     @Autowired
