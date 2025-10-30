@@ -1,4 +1,4 @@
-package com.mohssinekissane.acetp7.entities;
+package com.mohssinekissane.acetp8.entities;
 
 import jakarta.persistence.*;
 import jakarta.xml.bind.annotation.XmlRootElement;

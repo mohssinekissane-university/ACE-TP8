@@ -1,6 +1,6 @@
-package com.mohssinekissane.acetp7.repositories;
+package com.mohssinekissane.acetp8.repositories;
 
-import com.mohssinekissane.acetp7.entities.Compte;
+import com.mohssinekissane.acetp8.entities.Compte;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

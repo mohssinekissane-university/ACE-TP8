@@ -1,4 +1,4 @@
-package com.mohssinekissane.acetp7.entities;
+package com.mohssinekissane.acetp8.entities;
 
 public enum TypeCompte {
     COURANT, EPARGNE
